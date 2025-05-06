@@ -15,8 +15,14 @@ Thunar file browser
 % sudo make install
 ```
 
-and restart Nautilus or Thunar and then your .gcode will show up rendered in the preview.
+and restart Nautilus or Thunar and then your .slvs will show up rendered in the preview.
 
 ```
 % thunar -q & thunar
+```
+
+## Test
+
+```
+% solvespace2png ./test/cube.slvs out.png 32
 ```
