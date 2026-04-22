@@ -15,7 +15,7 @@ For a thumbniler for `.stl`, `.3mf` and `.scad` files have a look at https://git
 ## Install
 
 ```bash
-% sudo make install
+% sudo install.sh
 ```
 
 and restart Nautilus or Thunar and then your .slvs will show up rendered in the preview.
